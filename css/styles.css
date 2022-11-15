@@ -1,3 +1,134 @@
-body{
-    background: gold;
+:root{
+    --color-primary: #a29c91;
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+
+
+/* Navigation Bar */
+.nav {
+    background: var(--color-primary);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 1rem;
+    align-items: center;
+  }
+  .nav__list {
+    width: 100%;
+    margin: 0;
+  }
+  .nav__item {
+    padding: 0.5rem 1rem 1rem;
+
+  }
+  .nav__item > a {
+    color: #fff;
+    transition: color 0.3s;
+  }
+  .nav__item > a:hover {
+    color: black;
+  }
+  .nav__toggler {
+    transition: box-shadow 0.15s;
+    cursor: pointer;
+  }
+  .nav.collapsible--expanded .nav__toggler {
+    opacity: 1;
+    opacity: 0.5;
+    border-radius: 5px;
+  }
+  .nav__brand {
+    transform: translateY(5px);
+  }
+  .nav__heading{
+    color: white;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+  }
+  .nav__photo:active, .nav__photo:focus, .nav__photo:active{
+    background-image: none;
+    outline: 0;
+    box-shadow: none;
+
+  }
+  @media screen and (min-width: 768px) {
+    .nav__toggler {
+      display: none;
+    }
+    .nav__heading{
+        font-size: 2rem;
+    }
+    .nav__list {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+      width: auto;
+      display: flex;
+      font-size: 1.6rem;
+      max-height: 100%;
+      opacity: 1;
+    }
+    .nav__item {
+        border: 0;
+        padding-right: 2.5rem;
+        padding-bottom: 5;
+    }
+  }
+/* Navigation Bar extras */
+.list {
+    list-style: none;
+    padding-left: 0;
+}
+.icon {
+    width: 30px;
+    height: 30px;}
+
+.icon--white {
+        fill: white;
+      }
+
+/* Collapsibles */
+
+  .collapsible__heading {
+    margin-top: 0;
+    font-size: 3rem;
+  }
+  .collapsible__chevor {
+    transform: rotate(-90deg);
+    transition: transform 0.3s;
+  }
+  .collapsible__content {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.3s;
+  }
+  .collapsible--expanded .collapsible__content {
+    max-height: 100vh;
+    opacity: 1;
+  }
+@media screen and (min-width:768px) {
+    .collapsible__content{
+        max-height: 100vh;
+        opacity: 1;
+    }
 }
