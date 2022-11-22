@@ -69,6 +69,7 @@ a {
     padding-left: 1rem;
     margin-bottom: 1rem;
     font-size: 3rem;
+    font-weight: 600;
   }
   .nav__photo:active, .nav__photo:focus, .nav__photo:active{
     background-image: none;
@@ -80,9 +81,7 @@ a {
     .nav__toggler {
       display: none;
     }
-    .nav__heading{
-        font-size: 2rem;
-    }
+
     .nav__list {
     margin-top: 1rem;
     margin-bottom: 1rem;
