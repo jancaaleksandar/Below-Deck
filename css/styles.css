@@ -190,58 +190,6 @@ a {
     font-size: 2.5rem;
   }
 }
-/* Footer */
-.footer {
-  text-align: center;
-  background: var(--color--secondary);
-  color: white;
-}
-.footer--heading {
-  font-size: 3rem;
-  padding-top: 2rem;
-  margin: 0;
-}
-.footer--header {
-  font-size: 2rem;
-  color: #696969;
-  padding-top: 2.5rem;
-  padding-bottom: 0.3rem;
-}
-.footer--li {
-  font-size: 1.5rem;
-  padding-bottom: 0.3rem;
-  list-style-type: none;
-}
-.contact--numbers {
-  font-size: 1.3rem;
-  padding-bottom: 0.3rem;
-}
-.footer--copyright {
-  padding: 2rem 0 1rem 0;
-  font-size: 1rem;
-}
-.footer--flex {
-  display: flex;
-  flex-direction: column;
-}
-@media screen and (min-width: 1024px) {
-  .footer--flex {
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-  .footer--heading {
-    font-size: 3.5rem;
-  }
-  .footer--header {
-    font-size: 2.5rem;
-  }
-  .footer--li {
-    font-size: 2rem;
-  }
-  .contact--numbers {
-    font-size: 1.8rem;
-  }
-}
 /* About Page */
 .about--heading {
   font-size: 3rem;
@@ -350,7 +298,7 @@ a {
 .feature-last-text {
   margin: 0;
 }
-.button-feature{
+.button-feature {
   font-size: 3.3rem;
 }
 @media screen and (min-width: 768px) {
@@ -371,5 +319,179 @@ a {
 
   .feature-main-heading {
     margin-bottom: 1rem;
+  }
+}
+/* Bases section */
+.base-main {
+  text-align: center;
+}
+.base-main-heading {
+  font-size: 4rem;
+  padding: 4rem;
+}
+.base-main-image {
+  width: 100%;
+  max-height: auto;
+  border: 1rem;
+  opacity: 0.55;
+  z-index: -1;
+}
+.base-main-container {
+  position: relative;
+  text-align: center;
+  margin: 2rem;
+}
+.base-main-text {
+  font-size: 4rem;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  z-index: 1;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.base-main-grid {
+  display: grid;
+}
+@media screen and (min-width: 768px) {
+  .base-main-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .outside-grid-image {
+    width: 45%;
+    margin: auto;
+  }
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background: var(--color--secondary);
+  color: white;
+  padding-top: 2rem;
+}
+
+.footer--header {
+  font-size: 2rem;
+  padding-top: 2.5rem;
+  padding-bottom: 0.3rem;
+}
+.footer--li {
+  font-size: 1.5rem;
+  color: #a4a4a4;
+  padding-bottom: 0.3rem;
+  list-style-type: none;
+}
+.contact--info {
+  font-size: 1.3rem;
+  color: #a4a4a4;
+  padding-bottom: 0.3rem;
+}
+.footer--copyright {
+  padding: 2rem 0 1rem 0;
+  font-size: 1rem;
+}
+.footer--flex {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .footer--flex {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .footer--heading {
+    font-size: 3.5rem;
+  }
+  .footer--header {
+    font-size: 2.5rem;
+  }
+  .footer--li {
+    font-size: 2rem;
+  }
+  .contact--numbers {
+    font-size: 1.8rem;
+  }
+}
+/* Privacy Page */
+.privacy-page {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 75%,
+    rgba(240, 239, 239, 1) 99%
+  );
+}
+.privacy-container {
+  padding: 2rem 5rem 2rem 5rem;
+  line-height: 2.2rem;
+}
+.privacy-heading {
+  font-size: 4rem;
+}
+.privacy-subheading {
+  font-size: 2.5rem;
+  margin: 3rem 0 1.5rem 0;
+}
+.privacy-text {
+  font-size: 1.5rem;
+}
+.paragraph {
+  margin-top: 1rem;
+}
+.privacy-padding {
+  padding-left: 3rem;
+}
+.privacy-list-heading {
+  font-size: 1.8rem;
+  padding: 1rem 0rem;
+}
+.privacy-list {
+  padding-bottom: 1rem;
+}
+/* Locations */
+.location-heading {
+  font-size: 4.7rem;
+  text-align: center;
+  padding-top: 4rem;
+  height: 100%;
+}
+.location-subheading {
+  font-size: 4rem;
+  text-align: center;
+  padding: 5rem;
+}
+.location-title {
+  font-size: 2.5rem;
+  padding: 2rem 0rem 1rem 0rem;
+  text-align: center;
+}
+.location-text {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+  line-height: 3rem;
+}
+.location-image {
+  width: 100%;
+}
+.location-list-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 2rem;
+}
+.location-ul {
+  padding-bottom: 4rem;
+}
+.location-list {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  list-style-type: none;
+}
+@media screen and (min-width: 768px) {
+  .location {
+    padding: 0rem 5rem;
   }
 }
