@@ -399,7 +399,7 @@ a {
 @media screen and (min-width: 768px) {
   .footer--flex {
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
   .footer--heading {
     font-size: 3.5rem;
@@ -412,6 +412,16 @@ a {
   }
   .contact--numbers {
     font-size: 1.8rem;
+  }
+  .footer--locations{
+    padding-left: 5vh;
+  }
+  .footer--about{
+    padding-left: 6vh;
+    
+  }
+  .footer--contact-us{
+    justify-content: right;
   }
 }
 /* Privacy Page */
@@ -495,3 +505,37 @@ a {
     padding: 0rem 5rem;
   }
 }
+/* Contact Page */
+.contact--flex{
+  display: flex;
+  flex-direction: column;
+}
+.contact{
+  text-align: center;
+}
+.contact i{
+  font-size: 5rem;
+  padding-bottom: 1rem;
+}
+.contact-heading{
+  font-size: 5rem;
+  text-align: center;
+}
+.contact--content{
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+.contact-content-text{
+  padding: 1rem 0 2rem 0;
+}
+.contact-padding{
+  padding-top: 1rem;
+}
+.contact--text{
+  text-align: center;
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+  
+
