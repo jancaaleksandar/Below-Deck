@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="/main.js" />
 </head>
 <body>
-  <nav class="nav collapsible">
+  <section>
+    <nav class="nav collapsible">
       <a class="nav__brand nav__heading" href="/index.html">Below Deck</a>
       <img
         class="icon icon--white nav__toggler nav__photo"
@@ -17,12 +18,15 @@
         alt=""
       />
       <ul class="list nav__list collapsible__content">
-        <li class="nav__item"><a href="#">Portfolio</a></li>
-        <li class="nav__item"><a href="#">Chartering</a></li>
-        <li class="nav__item"><a href="#">Locations</a></li>
-        <li class="nav__item"><a href="#">Contact Us </a></li>
+        <li class="nav__item"><a href="/showcase.html">Charter</a></li>
+        <li class="nav__item"><a href="/locations.html">Locations</a></li>
+        <li class="nav__item">
+          <a href="/privacy.html">Terms & Conditions</a>
+        </li>
+        <li class="nav__item"><a href="/contact.html">Contact Us </a></li>
       </ul>
     </nav>
+  </section>
     <div class="about">
       <h1 class="about--heading">About Us</h1>
       <h3 class="about--subheading">Our Story</h3>
@@ -53,32 +57,41 @@
         earum dolorem corrupti atque nulla animi. Dolor ut ex autem.
       </p>
     </div>
-    <footer class="footer">
-      <h1 class="footer--heading">BELOW DECK</h1>
-      <div class="footer--flex">
-        <div class="footer--locations">
-          <h3 class="footer--header">LOCATIONS</h3>
-          <ul>
-            <li class="footer--li">Athens</li>
-            <li class="footer--li">Dubai</li>
-            <li class="footer--li">Italy</li>
-          </ul>
+    <section>
+      <footer class="footer">
+        <div class="footer--flex">
+          <div class="footer--locations">
+            <h3 class="footer--header">Locations</h3>
+            <ul>
+              <li class="footer--li">Saronic Gulf</li>
+              <li class="footer--li">Ionian Sea</li>
+              <li class="footer--li">Aegena Sea</li>
+            </ul>
+          </div>
+          <div class="footer--about">
+            <h3 class="footer--header">Below Deck</h3>
+            <ul>
+              <li class="footer--li">
+                <a href="/privacy.html">Privacy Policy</a>
+              </li>
+              <li class="footer--li">Gallery</li>
+            </ul>
+          </div>
+          <div class="footer--contact-us">
+            <h3 class="footer--header">Contact Us</h3>
+            <ul>
+              <li class="footer--li">+306998924924</li>
+              <li class="footer--li">
+                <a href="https://wa.me/306998924924?text=Hello">WhatsApp</a>
+              </li>
+                <li class="footer--li">emailbelowdeck@gmail.com</li>
+            </ul>
+          </div>
         </div>
-        <div class="footer--about">
-          <h3 class="footer--header">ABOUT US</h3>
-          <ul>
-            <li class="footer--li">Privacy Policy</li>
-            <li class="footer--li" >About Us</li> 
-          </ul>
+        <div class="footer--copyright">
+          <p>All rights reserved © Below Deck 2022</p>
         </div>
-        <div class="footer--contact-us">
-          <h3 class="footer--header">CONTACT US</h3>
-          <p class="contact--numbers">+306997120288</p>
-        </div>
-      </div>
-      <div class="footer--copyright">
-        <p>Copyright © Below Deck 2022</p>
-      </div>
-    </footer>
+      </footer>
+    </section>
     <script src="/main.js"></script> 
 </body>

@@ -24,6 +24,9 @@ a {
   text-decoration: none;
   color: inherit;
 }
+.center{
+  text-align: center;
+}
 
 /* Navigation Bar */
 .nav {
@@ -152,8 +155,8 @@ a {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .showcase {
-  color: white;
-  background: var(--color-primary);
+  color: black;
+  background: #d9d9d9;
 }
 .showcase:hover {
   cursor: pointer;
@@ -229,7 +232,7 @@ a {
 }
 .button {
   font-size: 3rem;
-  margin: 4rem;
+  margin: 4rem 4rem 1rem 4rem;
   padding: 1rem 3.5rem;
   background-color: var(--color--secondary);
   border: none;
@@ -246,6 +249,7 @@ a {
 /* Main Page */
 .main-page-block {
   text-align: center;
+  
 }
 .image {
   max-width: 100%;
@@ -271,6 +275,13 @@ a {
   border: 4px solid var(--color--secondary);
   background: var(--color-background);
   color: var(--color--secondary);
+}
+@media screen and (min-width:768px) {
+  .image{
+    padding: 0rem 4.5rem;
+
+  }
+  
 }
 
 /* Feature Page */
@@ -300,6 +311,7 @@ a {
 }
 .button-feature {
   font-size: 3.3rem;
+  margin-bottom: 3rem;
 }
 @media screen and (min-width: 768px) {
   .feature-main-flex {
@@ -536,6 +548,22 @@ a {
   font-size: 3rem;
   line-height: 3.5rem;
 }
-
+.yacht--owner{
+  padding: 0rem 3rem 3rem 3rem;
+}
+/* Yacht Details Page */
+.yacht--page{
+  text-align: center;
+}
+.yacht--pdf{
+  width: 100%;
+  height: 100vh;
+}
+.yacht--video{
+  width: 100vh;
+  height: 40rem;
+  padding: 3rem;
   
-
+}
+  
+/*  for video autoplay=1&mute=1&controls=0&loop=1 */

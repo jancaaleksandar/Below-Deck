@@ -14,9 +14,25 @@
     ></script>
   </head>
   <section>
-    <h1 class="contact-heading">Contact Us</h1>
+    <nav class="nav collapsible">
+      <a class="nav__brand nav__heading" href="/index.html">Below Deck</a>
+      <img
+        class="icon icon--white nav__toggler nav__photo"
+        src="/images/532-5328945_menu-clip-art-removebg-preview.png"
+        alt=""
+      />
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item"><a href="/showcase.html">Charter</a></li>
+        <li class="nav__item"><a href="/locations.html">Locations</a></li>
+        <li class="nav__item"><a href="/about.html">About Us </a></li>
+        <li class="nav__item">
+          <a href="/privacy.html">Terms & Conditions</a>
+        </li>
+      </ul>
+    </nav>
   </section>
   <section class="contact">
+    <h1 class="contact-heading">Contact Us</h1>
     <div class="contact--flex">
       <div class="contact--content">
         <i class="fa-regular fa-envelope"></i>
@@ -27,13 +43,13 @@
         <p class="contact-content-text">+306998924924</p>
       </div>
       <div class="contact--content">
-        <i class="fa-brands fa-whatsapp"></i>
-        <p class="contact-padding" >
-          <a
+        <a
             class="contact-content-text"
             href="https://wa.me/306998924924?text=Hello"
-            >WhatsApp</a
-          >
+            >
+            <i class="fa-brands fa-whatsapp"></i>
+            <p class="contact-padding" >WhatsApp</p>
+            </a>
         </p>
       </div>
       <div class="contact--content">
@@ -43,9 +59,49 @@
     </div>
   </section>
   <section>
-    <h1 class="contact-heading" >Yacht Owner?</h1>
-    <p class="contact--text" >Send us an email with all the details and some photos of your yacht. We will review everything and within 24 hour we will give you an answer on whether we can do business together. </p>
-    <p class="contact--text">emailbelowdeck@gmail.competitive</p>
+
+    <div class="yacht--owner">
+      <h1 class="contact-heading" >Yacht Owner?</h1>
+      <p class="contact--text" >Send us an email with all the details and some photos of your yacht. We will review everything and within 24 hour we will give you an answer on whether we can do business together. </p>
+      <p class="contact--text">emailbelowdeck@gmail.competitive</p>
+    </div>
+  </section>
+  <section>
+    <footer class="footer">
+      <div class="footer--flex">
+        <div class="footer--locations">
+          <h3 class="footer--header">Locations</h3>
+          <ul>
+            <li class="footer--li">Saronic Gulf</li>
+            <li class="footer--li">Ionian Sea</li>
+            <li class="footer--li">Aegena Sea</li>
+          </ul>
+        </div>
+        <div class="footer--about">
+          <h3 class="footer--header">Below Deck</h3>
+          <ul>
+            <li class="footer--li">
+              <a href="/privacy.html">Privacy Policy</a>
+            </li>
+            <li class="footer--li"><a href="/about.html">About Us</a></li>
+            <li class="footer--li">Gallery</li>
+          </ul>
+        </div>
+        <div class="footer--contact-us">
+          <h3 class="footer--header">Contact Us</h3>
+          <ul>
+            <li class="footer--li">+306998924924</li>
+            <li class="footer--li">
+              <a href="https://wa.me/306998924924?text=Hello">WhatsApp</a>
+            </li>
+              <li class="footer--li">emailbelowdeck@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer--copyright">
+        <p>All rights reserved © Below Deck 2022</p>
+      </div>
+    </footer>
   </section>
   <script src="/main.js"></script>
 </html>
