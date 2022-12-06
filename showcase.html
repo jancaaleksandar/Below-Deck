@@ -24,11 +24,11 @@
         />
         <ul class="list nav__list collapsible__content">
           <li class="nav__item"><a href="/locations.html">Locations</a></li>
-          <li class="nav__item"><a href="/contact.html">Contact Us </a></li>
           <li class="nav__item">
             <a href="/privacy.html">Terms & Conditions</a>
           </li>
           <li class="nav__item"><a href="/about.html">About Us </a></li>
+          <li class="nav__item"><a href="/contact.html">Contact Us </a></li>
         </ul>
       </nav>
     </section>
@@ -40,27 +40,37 @@
         <div class="showcase--div showcase--shadow">
           <div class="showcase">
             <a href="/first-yacht.html">
-              <img
-              class="showcase--img"
-              src="/images/Dream.jpg"
-              alt="dream image"
-              />
+              <picture>
+                <source type="image/webp" srcset="/images/Dream.webp">
+                <source type="image/jpg" srcset="/images/Dream.jpg">
+                <img
+                class="showcase--img"
+                src="/images/Dream.jpg"
+                alt="dream image"
+                />
+              </picture>
               <h3 class="yacht--name">DREAM</h3>
-              <p class="yacht--details">25 meters / 4 cabins</p>
-              <p class="yacht--price">From $40K/week</p>
+              <p class="yacht--details">25 meters / 4 cabins / 8 guests</p>
+              <p class="yacht--price">From $19K/week</p>
             </a>
           </div>
         </div>
         <div class="showcase--div showcase--shadow">
           <div class="showcase">
-            <img
-              class="showcase--img"
-              src="/images/Yacht-In-The-Bay.jpeg"
-              alt=""
-            />
-            <h3 class="yacht--name">Nikolas</h3>
-            <p class="yacht--details">20 meters / 3 cabins</p>
-            <p class="yacht--price">From $40K/week</p>
+            <a href="/second-yacht.html">
+              <picture>
+                <source type="image/webp" srcset="/images/resized 2sy.webp" >
+                <source type="image/png" srcset="/images/resized 2sy.png" >
+                <img
+                  class="showcase--img"
+                  src="/images/resized 2sy.png"
+                  alt=""
+                />
+              </picture>
+              <h3 class="yacht--name">Shooting Star</h3>
+              <p class="yacht--details">20 meters / 4 cabins / 8 guests</p>
+              <p class="yacht--price">From $11.6K/week</p>
+            </a>
           </div>
         </div>
         <div class="showcase--div showcase--shadow">
