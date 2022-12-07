@@ -381,7 +381,7 @@ a {
   text-align: center;
   background: var(--color--secondary);
   color: white;
-  padding-top: 2rem;
+  padding-top: .5rem;
 }
 
 .footer--header {
@@ -553,6 +553,9 @@ a {
 }
 .get-a-quote{
   padding: 0rem 3rem 1rem 3rem;
+}
+.underline{
+  text-decoration: underline;
 }
 /* Yacht Details Page */
 .yacht--page{
