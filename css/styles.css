@@ -567,9 +567,9 @@ a {
   height: 100vh;
 }
 .yacht--video {
-  padding: 2rem;
-  width: 70%;
-  height: 100%;
+  padding-top: 2rem;
+  height: 40rem;
+  width: 67.1rem;
 }
 .call-to-action {
   text-align: center;
