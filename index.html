@@ -4,7 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Charter a luxury yacht and get the experience of a lifetime in the Greek seas. You get to choose some of the most luxurious yachts in the market."
+    />
+    <meta property="og:title" content="Below Deck" />
+    <meta
+      property="og:description"
+      content="Charter a luxurious yacht in seconds!"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fyacht%2F&psig=AOvVaw0JbvJm0LdIgkERFKGFc7yc&ust=1670869182160000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCKCQv_KW8vsCFQAAAAAdAAAAABAI"
+    />
     <title>Below Deck</title>
+    <link rel="icon" href="/images/logo-removebg-preview.png">
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="/main.js" />
@@ -14,25 +29,26 @@
     ></script>
   </head>
   <body>
-    <section>
-      <nav class="nav collapsible">
-        <h2 class="nav__brand nav__heading">Below Deck</h2>
-        <img
-          class="icon icon--white nav__toggler nav__photo"
-          src="/images/532-5328945_menu-clip-art-removebg-preview.png"
-          alt="menu"
-        />
-        <ul class="list nav__list collapsible__content">
-          <li class="nav__item"><a href="/showcase.html">Charter</a></li>
-          <li class="nav__item"><a href="/locations.html">Locations</a></li>
-          <li class="nav__item">
-            <a href="/privacy.html">Terms & Conditions</a>
-          </li>
-          <li class="nav__item"><a href="/about.html">About Us </a></li>
-          <li class="nav__item"><a href="/contact.html">Contact Us </a></li>
-        </ul>
-      </nav>
-    </section>
+    <div>
+        <nav class="nav collapsible">
+          <h2 class="nav__brand nav__heading">Below Deck</h2>
+          <img
+            class="icon icon--white nav__toggler nav__photo"
+            src="/images/532-5328945_menu-clip-art-removebg-preview.png"
+            alt="menu"
+          />
+          <ul class="list nav__list collapsible__content">
+            <li class="nav__item"><a href="/showcase.html">Charter</a></li>
+            <li class="nav__item"><a href="/locations.html">Locations</a></li>
+            <li class="nav__item">
+              <a href="/privacy.html">Terms & Conditions</a>
+            </li>
+            <li class="nav__item"><a href="/about.html">About Us </a></li>
+            <li class="nav__item"><a href="/contact.html">Contact Us </a></li>
+          </ul>
+        </nav>
+
+    </div>
     <section>
       <header>
         <div class="main-hero-content">
@@ -40,9 +56,7 @@
           <p class="main-hero-text">
             Choose a yacht from our portfolio and charter it in seconds!
           </p>
-          <button class="button">
-            <a href="/showcase.html">Charter Now</a>
-          </button>
+          <a class="button" href="/showcase.html">Charter Now</a>
         </div>
       </header>
     </section>
@@ -85,9 +99,9 @@
             world. The most experienced crews, the most exclusive yachts, and of
             course the <b>markets most competitive rates.</b>
           </p>
-          <button class="button main-button">
-            <a href="/showcase.html">Portofolio</a>
-          </button>
+          <a class="button main-button" href="showcase.html">
+            Portfolio
+          </a>
         </div>
         <div>
           <picture>
@@ -104,9 +118,9 @@
             <b>yacht management</b> and more. We will be next to you in every
             step of your yacht ownership.
           </p>
-          <button class="button main-button">
-            <a href="/contact.html">View More</a>
-          </button>
+          <a class="button main-button" href="/contact.html">
+           View More
+          </a>
         </div>
       </div>
     </section>
@@ -151,15 +165,15 @@
             <source type="image/webp" srcset="/images/saronicgulf.webp" />
             <source type="image/png" srcset="/images/saronicgulf.png" />
             <img
-              class="base-main-image"
+              class="base-main-image location--margin"
               src="/images/saronicgulf.png"
               alt="aigion sea"
             />
           </picture>
         </div>
-        <button class="button button-base-main">
-          <a href="/locations.html">About Locations</a>
-        </button>
+        <a class="button" href="/locations.html">
+          About Locations
+        </a>
       </div>
     </section>
     <section>
@@ -183,13 +197,14 @@
             <p class="feature-main-text feature-last-text">Reliability</p>
           </div>
         </div>
-        <button class="button button-feature">
-          <a href="/contact.html">Contact Us</a>
-        </button>
+        <a class="button button-feature" href="/contact.html">
+          Contact Us
+        </a>
       </div>
     </section>
     <section>
       <footer class="footer">
+        <img class="logo" src="/images/logo-removebg-preview.png" alt="logo">
         <div class="footer--flex">
           <div class="footer--locations">
             <a href="/locations.html">
@@ -214,11 +229,15 @@
           <div class="footer--contact-us">
             <h3 class="footer--header">Contact Us</h3>
             <ul>
-              <li class="footer--li"><a href="tel:+306998924924">Phone Number</a></li>
+              <li class="footer--li">
+                <a href="tel:+306998924924">Phone Number</a>
+              </li>
               <li class="footer--li">
                 <a href="https://wa.me/306998924924?text=Hello">WhatsApp</a>
               </li>
-                <li class="footer--li"><a href="mailto:belowdeckchartering@gmail.com">Email</a></li>
+              <li class="footer--li">
+                <a href="mailto:belowdeckchartering@gmail.com">Email</a>
+              </li>
             </ul>
           </div>
         </div>
