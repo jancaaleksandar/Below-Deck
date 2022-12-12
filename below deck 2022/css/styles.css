@@ -451,6 +451,7 @@ a {
 }
 .privacy-heading {
   font-size: 3rem;
+  line-height: 3rem;
 }
 .privacy-subheading {
   font-size: 2.5rem;
@@ -576,9 +577,10 @@ a {
 }
 .yacht--video {
   padding-top: 2rem;
-  height: 40rem;
-  width: 67.1rem;
+  height: auto;
+  width: 65vw;
   border: none;
+  
 }
 .call-to-action {
   text-align: center;
