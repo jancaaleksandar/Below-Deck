@@ -638,3 +638,8 @@ label {
 input[type="submit"] {
   margin-top: 20px;
 }
+
+/*Extras */
+.yacht--text{
+  font-size: 1.4rem;
+}
