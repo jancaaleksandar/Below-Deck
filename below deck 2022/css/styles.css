@@ -641,5 +641,6 @@ input[type="submit"] {
 
 /*Extras */
 .yacht--text{
-  font-size: 1.4rem;
+  font-size: 1.65rem;
+  padding: 1.5rem;
 }
